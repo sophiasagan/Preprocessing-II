@@ -330,4 +330,7 @@ body {
     color: white;
     text-align: center;
   }
+  .home .content-pick .destination .btn a :hover {
+    background-color: blue;
+  }
 }
