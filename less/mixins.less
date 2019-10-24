@@ -1,1 +1,26 @@
 // Mixins in here
+
+
+.flex-class(@direction, @justify, @align, @font-size) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+    font-size: @font-size;
+}
+
+.button-style(@background, @radius, @font-size, @padding, @width, @color, @align) {
+    background-color: @background;
+    border-radius: @radius;
+    font-size: @font-size;
+    padding: @padding;
+    width: @width;
+    color: @color;
+    text-align: @align;
+}
+
+    // a : hover 
+    //     opacity: 50%;
+    //   }
+
+   
