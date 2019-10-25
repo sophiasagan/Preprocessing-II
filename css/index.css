@@ -310,8 +310,12 @@ body {
   color: white;
   text-align: center;
 }
-.home .content-pick .destination .btn a :hover {
-  background-color: blue;
+.home .content-pick .destination .btn :hover {
+  color: blue;
+  text-decoration: none;
+}
+.home .content-pick .destination .btn a {
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .home .content-pick {
@@ -332,8 +336,5 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-  }
-  .home .content-pick .destination .btn .btn a :hover {
-    background-color: blue;
   }
 }

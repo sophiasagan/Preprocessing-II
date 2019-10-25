@@ -112,11 +112,17 @@ body {
       width: 30%;
       margin-bottom: 30px;
         .btn {
+          
           .button-style(teal, 10px, 16px, 8px, 100%, white, center);
 
             & :hover {
-            background-color: blue;
+            color: blue;
+            text-decoration: none;
             }
+
+          a {
+            text-decoration: none;
+          }
 
         }
     }
@@ -134,8 +140,8 @@ body {
         .btn {
           .button-style(lighten(teal, 10%), 10px, 16px, 8px, 100%, white, center);
 
-          // .btn a :hover {
-          //   background-color: blue;
+          // &a {
+          //   text-decoration: none;
           // }
         }
       }
